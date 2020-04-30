@@ -50,21 +50,37 @@ h6 {
   
 .container{
     display: grid;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-gap: 20px;
      
 }
 
 .album{
-   
-    border: 2px solid red;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      
+      display: grid;
+      /* border: 2px solid red; */
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      padding: 10px;
+      align-items: center;
+      color: #351e1e;
+     
 }
 
 .album_img{
     width: 150px;
-    /* height: 200px; */
-    border: 2px solid black;
+    
+    
 }
 
 .album_img img{
     width: 100%;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
 }
