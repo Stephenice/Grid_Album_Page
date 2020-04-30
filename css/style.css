@@ -1,0 +1,33 @@
+:root{
+    --btn-color: #00a78e;
+    --bg-color-one: #f4f4f4;
+    }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+
+body {
+    background-image: url("images/Diamond-Sunset.svg"),
+      linear-gradient(110deg, #a76876, #ccc7da); 
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    background-attachment: fixed;
+    letter-spacing: -1px;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+  
