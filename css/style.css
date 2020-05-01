@@ -62,7 +62,7 @@ h6 {
       
       display: grid;
       /* border: 2px solid red; */
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 130px 1fr;
       grid-gap: 10px;
       padding: 10px;
       align-items: center;
@@ -71,8 +71,10 @@ h6 {
 }
 
 .album_img{
-    width: 150px;
-    
+    /* width: 150px; */
+    height: auto;
+    /* border: 2px solid red; */
+    /* width: 100%; */
     
 }
 
